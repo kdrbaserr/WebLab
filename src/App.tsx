@@ -20,30 +20,28 @@
       </header>
 
       <main id="main-content">
-        <section id="hakkimda">
+       <section id="hakkimda">
   <h2>Hakkımda</h2>
 
   <figure>
     <img 
       src="https://via.placeholder.com/150" 
-      alt="Profil Fotoğrafı" 
+      alt="Kadir Başer Profil Fotoğrafı" 
     />
-    <figcaption>Yazılım Mühendisi Adayı</figcaption>
+    <figcaption>Kadir Başer</figcaption>
   </figure>
 
   <p>
-    <strong>Yazılım Mühendisliği 3. sınıf öğrencisiyim.</strong> Akademik kariyerimi 
-    özellikle <strong>savunma sanayii</strong> alanında uzmanlaşarak sürdürmeyi hedefliyorum. 
-    Şu anda veri analizi, uyku sınıflandırması üzerine projeler ve modern web teknolojileri 
-    üzerinde çalışmalarımı yoğunlaştırıyorum.
+    <strong>Yazılım Mühendisliği 3. sınıf öğrencisiyim.</strong> Kariyer hedefimi 
+    <strong>savunma sanayii</strong> alanında uzmanlaşmak üzerine kuruyorum. 
+    Şu an aktif olarak veri analizi ve modern web teknolojileri üzerine projeler geliştiriyorum.
   </p>
 
-  <h3>Kullandığım Teknolojiler & Yetkinlikler</h3>
+  <h3>Teknik Yetkinlikler</h3>
   <ul>
-    <li><strong>Diller:</strong> C++, C#, Java, Python</li>
-    <li><strong>Web:</strong> React (Components, State, Props), HTML5, CSS3</li>
-    <li><strong>Uzmanlık:</strong> Nesne Yönelimli Programlama (OOP), Yazılım Metodolojileri (Agile, Scrum)</li>
-    <li><strong>Araçlar:</strong> Git, Veri Analizi</li>
+    <li><strong>Programlama:</strong> C++, C#, Java, Python</li>
+    <li><strong>Web Geliştirme:</strong> React, JavaScript, HTML5, CSS3</li>
+    <li><strong>Metodolojiler:</strong> Agile, Scrum, OOP Prensipleri</li>
   </ul>
 </section>
 
