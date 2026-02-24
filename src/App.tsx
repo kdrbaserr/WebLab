@@ -8,7 +8,7 @@
       </a>
 
       <header>
-        <h1>Kaan Basar - Kişisel Portföy</h1>
+        <h1>kadir BAŞER - Kişisel Portföy</h1>
 
         <nav aria-label="Ana navigasyon">
           <ul>
@@ -135,7 +135,7 @@
       </main>
 
       <footer>
-        <p>© 2025 Kaan Basar. Tüm hakları saklıdır.</p>
+        <p>© 2025 Kadir BAŞER. Tüm hakları saklıdır.</p>
       </footer>
     </>
   )
