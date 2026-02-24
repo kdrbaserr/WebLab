@@ -21,8 +21,31 @@
 
       <main id="main-content">
         <section id="hakkimda">
-          <h2>Hakkımda</h2>
-        </section>
+  <h2>Hakkımda</h2>
+
+  <figure>
+    <img 
+      src="https://via.placeholder.com/150" 
+      alt="Profil Fotoğrafı" 
+    />
+    <figcaption>Yazılım Mühendisi Adayı</figcaption>
+  </figure>
+
+  <p>
+    <strong>Yazılım Mühendisliği 3. sınıf öğrencisiyim.</strong> Akademik kariyerimi 
+    özellikle <strong>savunma sanayii</strong> alanında uzmanlaşarak sürdürmeyi hedefliyorum. 
+    Şu anda veri analizi, uyku sınıflandırması üzerine projeler ve modern web teknolojileri 
+    üzerinde çalışmalarımı yoğunlaştırıyorum.
+  </p>
+
+  <h3>Kullandığım Teknolojiler & Yetkinlikler</h3>
+  <ul>
+    <li><strong>Diller:</strong> C++, C#, Java, Python</li>
+    <li><strong>Web:</strong> React (Components, State, Props), HTML5, CSS3</li>
+    <li><strong>Uzmanlık:</strong> Nesne Yönelimli Programlama (OOP), Yazılım Metodolojileri (Agile, Scrum)</li>
+    <li><strong>Araçlar:</strong> Git, Veri Analizi</li>
+  </ul>
+</section>
 
         <section id="projeler">
           <h2>Projelerim</h2>
