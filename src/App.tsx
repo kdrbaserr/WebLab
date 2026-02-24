@@ -48,8 +48,26 @@
 </section>
 
         <section id="projeler">
-          <h2>Projelerim</h2>
-        </section>
+  <h2>Projelerim</h2>
+
+  <article>
+    <h3>E-Ticaret Sitesi</h3>
+    <p>React ile geliştirilmiş bir alışveriş sitesi.</p>
+    <img 
+      src="https://via.placeholder.com/300"
+      alt="E-ticaret sitesi ana sayfa ekran görüntüsü"
+    />
+  </article>
+
+  <article>
+    <h3>Blog Uygulaması</h3>
+    <p>Kullanıcıların yazı paylaşabildiği blog platformu.</p>
+    <img 
+      src="https://via.placeholder.com/300"
+      alt="Blog uygulaması yazı listesi ekran görüntüsü"
+    />
+  </article>
+</section>
 
         <section id="iletisim">
           <h2>İletişim</h2>
