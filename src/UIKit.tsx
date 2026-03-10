@@ -5,9 +5,9 @@ import Alert from './components/Alert';
 
 export default function UIKit() {
     return (
-        <div className="min-h-screen bg-white dark:bg-[linear-gradient(180deg,#4A0001_0%,#AD0003_100%)] p-8 space-y-12 transition-colors duration-300">
+        <div className="min-h-screen bg-white dark:bg-[linear-gradient(180deg,#4A0001_0%,#AD0003_100%)] p-6 space-y-8 transition-colors duration-300">
             <div className="flex items-center justify-between">
-                <h1 className="text-4xl font-bold text-gray-900 dark:text-white">
+                <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
                     UI Kit
                 </h1>
                 <p className="text-gray-500 dark:text-gray-400 text-sm">
