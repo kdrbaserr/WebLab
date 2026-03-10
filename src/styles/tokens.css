@@ -1,0 +1,83 @@
+:root {
+  /* Renk Paleti (Design Tokens) - Modern Dark Theme */
+  --color-primary: #00D9FF;
+  /* Cyan accent */
+  --color-secondary: #7C3AED;
+  /* Purple accent */
+  --color-accent: #FF006E;
+  /* Pink accent */
+  --color-bg: linear-gradient(180deg, #4A0001 0%, #AD0003 100%);
+  /* Dark red to warm red gradient */
+  --color-text: #F0F0F8;
+  /* Light text */
+  --color-muted: #A0A0B8;
+  /* Muted light text */
+  --color-surface: #1A1A2E;
+  /* Dark surface */
+  --color-border: #2D2D44;
+  /* Dark border */
+  --color-error: #FF3860;
+  /* Vibrant red */
+  --color-success: #00D084;
+  /* Vibrant green */
+
+  /* Gradient Definitions */
+  --gradient-primary: linear-gradient(135deg, #00D9FF 0%, #7C3AED 100%);
+  --gradient-secondary: linear-gradient(135deg, #7C3AED 0%, #FF006E 100%);
+  --gradient-text: linear-gradient(90deg, #00D9FF 0%, #7C3AED 50%, #FF006E 100%);
+
+  /* Glow Effects */
+  --glow-primary: 0 0 20px rgba(0, 217, 255, 0.3);
+  --glow-secondary: 0 0 20px rgba(124, 58, 237, 0.3);
+  --glow-accent: 0 0 20px rgba(255, 0, 110, 0.3);
+
+  /* Spacing (Boşluk) Skalası */
+  --space-xs: 0.25rem;
+  /* 4px */
+  --space-sm: 0.5rem;
+  /* 8px */
+  --space-md: 1rem;
+  /* 16px */
+  --space-lg: 1.5rem;
+  /* 24px */
+  --space-xl: 2rem;
+  /* 32px */
+  --space-2xl: 3rem;
+  /* 48px */
+  --space-3xl: 4rem;
+  /* 64px */
+
+  /* Border Radius (Köşe Yuvarlatma) */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+
+  /* Font Aileleri */
+  --font-sans: system-ui, -apple-system, sans-serif;
+  --font-mono: 'Fira Code', 'Consolas', monospace;
+
+  /* Fluid Typography (clamp() ile akıcı yazı boyutları) */
+  /* Ekran genişliğine göre otomatik büyür/küçülür */
+  --text-sm: clamp(0.75rem, 0.7rem + 0.2vw, 0.85rem);
+  --text-base: clamp(0.9rem, 0.85rem + 0.3vw, 1rem);
+  --text-lg: clamp(1rem, 0.95rem + 0.4vw, 1.15rem);
+  --text-xl: clamp(1.15rem, 1.05rem + 0.5vw, 1.35rem);
+  --text-2xl: clamp(1.3rem, 1.2rem + 1vw, 1.75rem);
+  --text-3xl: clamp(1.6rem, 1.4rem + 2vw, 2.5rem);
+
+  /* Gölgeler (Shadows) - Dark Theme */
+  --shadow-sm: 0 0 10px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 8px 20px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.5);
+
+  /* Glassmorphism */
+  --glass-bg: rgba(26, 26, 46, 0.7);
+  --glass-border: 1px solid rgba(255, 255, 255, 0.1);
+  --glass-blur: backdrop-filter: blur(10px);
+
+  /* Geçişler (Transitions) */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+}
