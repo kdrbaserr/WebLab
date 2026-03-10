@@ -82,26 +82,26 @@ function App() {
         {activePage === 'uikit' && <UIKit />}
 
         {activePage === 'hakkimda' && (
-          <section id="hakkimda" className="py-16 px-4">
-            <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-8">
+          <section id="hakkimda" className="py-8 px-4">
+            <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-6">
               <figure className="shrink-0">
                 <img
                   src="/profile.jpg"
                   alt="Kadir Başer vesikalık fotoğrafı"
-                  className="w-40 h-40 rounded-full object-cover shadow-lg"
+                  className="w-32 h-32 rounded-full object-cover shadow-lg"
                 />
               </figure>
               <div>
-                <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4 text-center md:text-left">
+                <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-3 text-center md:text-left">
                   Hakkımda
                 </h2>
-                <p className="text-gray-600 dark:text-gray-400 mb-4 leading-relaxed">
+                <p className="text-gray-600 dark:text-gray-400 mb-4 leading-relaxed text-sm">
                   <strong>Yazılım Mühendisliği 3. sınıf öğrencisiyim.</strong> Kariyerimi özellikle <strong>savunma sanayii</strong> alanında uzmanlaşarak şekillendirmek istiyorum. Şu an akademik çalışmalarımın yanı sıra veri analizi ve gömülü sistemler üzerine odaklanıyorum.
                 </p>
                 <ul className="flex flex-wrap gap-2">
-                  <li className="bg-blue-800 text-white px-3 py-1 rounded-full text-sm">C++, C#, Java, Python</li>
-                  <li className="bg-blue-800 text-white px-3 py-1 rounded-full text-sm">React, JavaScript, HTML/CSS</li>
-                  <li className="bg-blue-800 text-white px-3 py-1 rounded-full text-sm">Gömülü Sistemler & Veri Analizi</li>
+                  <li className="bg-blue-800 text-white px-2.5 py-1 rounded-full text-xs">C++, C#, Java, Python</li>
+                  <li className="bg-blue-800 text-white px-2.5 py-1 rounded-full text-xs">React, JavaScript, HTML/CSS</li>
+                  <li className="bg-blue-800 text-white px-2.5 py-1 rounded-full text-xs">Gömülü Sistemler & Veri Analizi</li>
                 </ul>
               </div>
             </div>
@@ -109,9 +109,9 @@ function App() {
         )}
 
         {activePage === 'projeler' && (
-          <section id="projeler" className="py-16 px-4 bg-gray-50 dark:bg-black/20">
-            <div className="max-w-6xl mx-auto">
-              <h2 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-10">
+          <section id="projeler" className="py-8 px-4 bg-gray-50 dark:bg-black/20">
+            <div className="max-w-5xl mx-auto">
+              <h2 className="text-2xl font-bold text-center text-gray-900 dark:text-white mb-6">
                 Projelerim
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -148,9 +148,9 @@ function App() {
         )}
 
         {activePage === 'iletisim' && (
-          <section id="iletisim" className="py-16 px-4">
-            <div className="max-w-lg mx-auto">
-              <h2 className="text-3xl font-bold text-center text-gray-900 dark:text-white mb-8">
+          <section id="iletisim" className="py-8 px-4">
+            <div className="max-w-md mx-auto">
+              <h2 className="text-2xl font-bold text-center text-gray-900 dark:text-white mb-6">
                 İletişim
               </h2>
               <form className="space-y-4">
