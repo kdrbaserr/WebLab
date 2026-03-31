@@ -5,7 +5,7 @@ export const Hero: React.FC = () => {
     <section id="home" className="pt-32 pb-20 md:pt-40 md:pb-28 bg-gradient-to-b from-blue-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center border-gray-100">
         <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl mb-6 animate-fade-in-up">
-          <span className="block">Merhaba, Ben Oğuzhan</span>
+          <span className="block">Merhaba, Ben Kadir</span>
           <span className="block text-blue-600 mt-2">React & TypeScript Geliştiricisi</span>
         </h1>
         <p className="mt-4 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-8 md:text-xl md:max-w-3xl">
